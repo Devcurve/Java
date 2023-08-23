@@ -67,3 +67,9 @@ char myChar = 'A'; // 문자는 작은따옴표로 표현
 ```
 boolean myBoolean = true; // 또는 false
 ```
+
+---
+<!--목차 & 다음으로 페이지 이동-->
+[목차](https://github.com/Devcurve/Java/blob/main/README.md)<br>
+[이전 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/switch.md)<br>
+<!--[다음 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/dataType.md)-->
