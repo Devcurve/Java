@@ -3,9 +3,9 @@ ___목차___
 - [변수선언](./Markdown/variable.md)
 - [연산자](./Markdown/operator.md)
 - [if-else](./Markdown/ifElse.md)
-<!--- [if-else(분기문)](ifElse.md)
-- [입출력](111.md)
-- [데이터타입](111.md)
+- [switch](./Markdown/switch.md)
+- [자료형(DataType)](./Markdown/dataType.md)
+<!--
 - [타입 변환](111.md)
 - [연산자](111.md)
 - [조건문](111.md)
