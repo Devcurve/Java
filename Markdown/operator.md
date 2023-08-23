@@ -272,6 +272,6 @@ String grade = (score >= 90) ? "A" : "B";
 ---
 
 <!--목차 & 다음으로 페이지 이동-->
-[목차](https://github.com/Devcurve/Java/README.md)<br>
-[이전 페이지](https://github.com/Devcurve/Java/variable.md)<br>
-[다음 페이지](https://github.com/Devcurve/Java/ifElse.md)
+[목차](https://github.com/Devcurve/Java/blob/main/README.md)<br>
+[이전 페이지](https://github.com/Devcurve/Java/Markdown/variable.md)<br>
+[다음 페이지](https://github.com/Devcurve/Java/Markdown/ifElse.md)
