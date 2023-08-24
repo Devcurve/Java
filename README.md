@@ -9,11 +9,15 @@ ___목차___
 - [while](./Markdown/while.md)
 - [문자열(String)](./Markdown/string.md)
 - [배열(Array)](./Markdown/array.md)
+- [함수(function)](./Markdown/function.md)
+
+## 클래스
+- [생성자](./Markdown/constructor.md)
 
 <!--
-- [열거형](111.md)
-- [생성자](111.md)
-- [필드](111.md)
-- [함수](111.md)
-- [함수](111.md)
+
+- [](./Markdown/array.md)
+- [](./Markdown/array.md)
+- [](./Markdown/array.md)
+- [](./Markdown/array.md)
 -->
