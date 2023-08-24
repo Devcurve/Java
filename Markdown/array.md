@@ -78,12 +78,13 @@ for(int number : numbers) {
 - Arrays.sort 사용 (오름차순)
 
 ```
-int[][] numbers = {
-    {6, 3},
-    {5, 2},
-    {4, 1}
-};
+import java.util.Arrays;
+
+int[] numbers = {6, 4, 2, 3, 5, 1};
 Arrays.sort(numbers);
+for(int number : numbers) {
+    System.out.println(number);
+}
 ```
 ---
 
