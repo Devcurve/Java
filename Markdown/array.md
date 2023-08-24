@@ -30,12 +30,15 @@ numbers[3] = 40;
 - 크기 확인
 
 ```
-int length = numbers.length; // 4
+int length = numbers.length;
+System.out.println(length);
 요소 접근
 ```
 
 ```
-int firstNumber = numbers[0]; // 10
+numbers = new int[]{10, 20, 30, 40};
+int firstNumber = numbers[0];
+System.out.println(firstNumber);
 ```
 ---
 
@@ -48,10 +51,9 @@ int[][] matrix = {
     {3, 4},
     {5, 6}
 };
-요소 접근
-```
-```
-int number = matrix[1][0]; // 3
+
+int number = matrix[1][0];
+System.out.println(number);
 ```
 ---
 
@@ -64,6 +66,7 @@ for(int i = 0; i < numbers.length; i++) {
 }
 for-each문 사용
 ```
+
 ```
 for(int number : numbers) {
     System.out.println(number);
@@ -71,24 +74,15 @@ for(int number : numbers) {
 ```
 ---
 
-#### 배열의 복사
-- System.arraycopy 사용
-
-```
-int[] copiedNumbers = new int[4];
-System.arraycopy(numbers, 0, copiedNumbers, 0, numbers.length);
-clone 메서드 사용
-```
-
-```
-int[] clonedNumbers = numbers.clone();
-```
----
-
 #### 배열의 정렬
-- Arrays.sort 사용
+- Arrays.sort 사용 (오름차순)
 
 ```
+int[][] numbers = {
+    {6, 3},
+    {5, 2},
+    {4, 1}
+};
 Arrays.sort(numbers);
 ```
 ---
@@ -97,7 +91,7 @@ Arrays.sort(numbers);
 - Arrays.binarySearch 사용 (정렬된 배열에서만)
 
 ```
-int index = Arrays.binarySearch(numbers, 30); // 2
+int index = Arrays.binarySearch(numbers, 30);
 ```
 ---
 
