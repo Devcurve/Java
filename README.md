@@ -1,4 +1,8 @@
-___목차___
+
+
+___목차___<br><br>
+[Code Test 바로가기](https://app.coderpad.io/sandbox?snippet=1aabe814)
+
 ## Chapter 1. Java 문법
 - [변수선언(Variable)](./Markdown/variable.md)
 - [연산자(Operator)](./Markdown/operator.md)
@@ -15,9 +19,10 @@ ___목차___
 - [생성자](./Markdown/constructor.md)
 
 
-
 ## 문제
 - [0단계](./Markdown/level_0.md)
+
+
 
 
 
