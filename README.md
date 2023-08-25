@@ -1,7 +1,7 @@
 
 
 ___목차___<br><br>
-[Code Test 바로가기](https://app.coderpad.io/sandbox?snippet=1aabe814)
+[Code Test 바로가기](https://app.coderpad.io/sandbox?snippet)
 
 ## Chapter 1. Java 문법
 - [변수선언(Variable)](./Markdown/variable.md)
