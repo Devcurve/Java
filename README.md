@@ -17,7 +17,7 @@ ___목차___<br><br>
 
 ## 클래스
 - [생성자](./Markdown/constructor.md)
-- [getter & setter](./Markdown/constructor.md)
+- [getter & setter](./Markdown/get_set.md)
 <!--- [접근제어자](./Markdown/constructor.md)-->
 
 
