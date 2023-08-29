@@ -18,6 +18,8 @@ ___목차___<br><br>
 ## 클래스
 - [생성자](./Markdown/constructor.md)
 - [getter & setter](./Markdown/get_set.md)
+- [class](./Markdown/class.md)
+- [inheritance](./Markdown/inheritance.md)
 <!--- [접근제어자](./Markdown/constructor.md)-->
 
 
