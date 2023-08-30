@@ -53,4 +53,4 @@ getter와 setter를 오버라이딩해서 자식 클래스에서 다른 동작�
 <!--목차 & 다음으로 페이지 이동-->
 [목차](https://github.com/Devcurve/Java/blob/main/README.md)<br>
 [이전 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/constructor.md)<br>
-[다음 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/class.md
+[다음 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/class.md)
