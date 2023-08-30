@@ -19,6 +19,7 @@ ___목차___<br><br>
 - [생성자](./Markdown/constructor.md)
 - [getter & setter](./Markdown/get_set.md)
 - [class](./Markdown/class.md)
+- [Static](./Markdown/static.md)
 - [Singleton](./Markdown/singleton.md)
 - [inheritance](./Markdown/inheritance.md)
 <!--- [접근제어자](./Markdown/constructor.md)-->
