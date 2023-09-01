@@ -241,6 +241,36 @@ public class Main {
 ```
 
 
+### 주의사항
+- `abstract` 메서드가 있는 클래스는 반드시 `abstract`로 선언되어야 합니다.
+- `abstract` 메서드가 하나라도 있는 클래스는 해당 클래스도 `abstract`로 선언해야 합니다.
+- `abstract` 클래스는 인스턴스화할 수 없습니다. `abstract` 클래스의 객체를 직접 생성할 수 없습니다. 반드시 하위 클래스를 통해 객체를 생성해야 합니다.
+- `abstract` 메서드는 구현이 없어야 합니다. 예: abstract 메서드는 선언만 있고, 구현`{ }`이 없어야 합니다.
+- `abstract` 메서드는 `private, static, final`이 될 수 없습니다. 이 키워드들은 구현을 필요로 하는 키워드 이기때문입니다. `abstract` 메서드와는 상반되는 개념이야.
+- `abstract` 클래스를 상속받은 하위 클래스는 반드시 `abstract` 메서드를 구현해야 합니다. 구현하지 않으면 그 하위 클래스도 `abstract`로 선언되어야 합니다.
+
+### 흔히 하는 실수
+> `abstract` 메서드에 구현을 적는 경우 컴파일 에러가 발생합니다. `abstract` 메서드는 구현이 없어야 합니다.
+
+> `abstract` 클래스의 객체를 생성하는 경우 컴파일 에러가 발생합니다. `abstract` 클래스는 인스턴스화할 수 없습니다.
+
+> `abstract` 키워드를 `private, static, final`과 함께 사용하는 것은 허용되지 않습니다.
+
+> `abstract` 메서드를 구현하지 않은 하위 클래스를 `abstract`로 선언하지 않는 경우 컴파일 에러가 발생합니다. 상속받은 `abstract` 메서드는 반드시 구현하거나, 하위 클래스도 `abstract`로 선언해야 합니다.
+
+> abstract 클래스와 인터페이스는 유사해 보이기 때문에 혼동하는경우가 많습니다. `abstract` 클래스는 생성자를 가질 수 있고, 상태(필드 변수)를 유지할 수 있습니다.
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 <!--목차 & 다음으로 페이지 이동-->
 [목차](https://github.com/Devcurve/Java/blob/main/README.md)<br>
