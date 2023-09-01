@@ -119,7 +119,7 @@ class Dog extends Animal {
 
 class Cat extends Animal {
     Cat(){
-      say = "멍멍!";
+      say = "야옹!";
     }
 
     // 부모 클래스의 makeSound 메서드를 오버라이딩
@@ -186,6 +186,60 @@ public class Main {
 }
 
 ```
+
+---
+
+## 추상화 ___abstract___
+
+### 순수 가상함수
+- `순수 가상 함수`는 선언만 있고 구현이 없는 함수를 의미합니다. `순수 가상 함수`가 있는 클래스를 `추상 클래스(abstract class)`라고 하며, 이 클래스를 상속받는 하위 클래스에서는 상위 클래스에서 선언한 `순수 가상 함수`를 반드시 구현해야 합니다.
+
+> 예
+```
+public abstract class Animal {
+    public abstract void makeSound();
+}
+public class Dog extends Animal {
+    public void makeSound() {
+        System.out.println("왈왈!");
+    }
+}
+```
+
+
+___예제___
+
+```
+public abstract class Animal {
+    // 순수 가상 함수
+    public abstract void makeSound();
+}
+
+public class Dog extends Animal {
+    // Animal 클래스에서 정의한 순수 가상 함수 makeSound를 구현
+    public void makeSound() {
+        System.out.println("왈왈!");
+    }
+}
+
+public class Cat extends Animal {
+    // Animal 클래스에서 정의한 순수 가상 함수 makeSound를 구현
+    public void makeSound() {
+        System.out.println("냐옹~");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+      Animal myDog = new Dog();
+      myDog.makeSound();
+
+      Animal myCat = new Dog();
+      myCat.makeSound();
+    }
+}
+```
+
 
 ---
 <!--목차 & 다음으로 페이지 이동-->
