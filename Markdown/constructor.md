@@ -47,4 +47,4 @@ System.gc(); // 가비지 컬렉터를 명시적으로 호출 (선택 사항)
 <!--목차 & 다음으로 페이지 이동-->
 [목차](https://github.com/Devcurve/Java/blob/main/README.md)<br>
 [이전 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/function.md)<br>
-[다음 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/get_set.md
+[다음 페이지](https://github.com/Devcurve/Java/blob/main/Markdown/get_set.md)
